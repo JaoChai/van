@@ -19,3 +19,11 @@ Route::get('/', function () {
 Route::get('backend', function () {
     return view('backend/index');
 });
+
+Route::get('van', function () {
+    return view('backend/van');
+});
+
+Route::get('user', function () {
+    return view('backend/user');
+});
